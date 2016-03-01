@@ -1,0 +1,16 @@
+<% @students.each do 
+    |student| %>
+    <div class="student">
+        <p class="content">
+            <%= student.content %> 
+        </p>
+        <p class="time">
+            <%= stuent.created_at %>
+        </p>
+        <%= link_to "Learn more", student_path(t) %>
+        <%= link_to "Edit", edit_student_path(@student) %>
+    </div>
+    
+    <% link_to 'New Student', 'students/new' %>
+    
+   <% end %>
