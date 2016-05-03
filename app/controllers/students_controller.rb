@@ -1,3 +1,8 @@
+class Application < Rails::Application
+  config.web_console.whitelisted_ips = '128.255.20.168'
+end
+
+
 class StudentsController < ActionController::Base
     
     def index 

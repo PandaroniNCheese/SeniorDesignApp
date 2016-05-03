@@ -17,9 +17,13 @@ gem 'coffee-rails', '~> 4.1.0'
 #rails api
 gem 'rails-api'
 
-#exporting to excel
-gem 'axlsx', '~> 2.0'
-gem 'axlsx_rails'
+gem 'chartkick'
+
+gem 'dateslices'
+
+gem 'groupdate'
+
+gem 'pg', '~> 0.18.4'
 
 #api gem
 gem 'active_model_serializers'

@@ -15,7 +15,7 @@ Rails.application.routes.draw do
       resources :students
     end
     
-     namespace :v1 do
+    namespace :v1 do
       resources :students
     end
     

@@ -1,11 +1,6 @@
 Module Api
     Module V1
         class StudentsController < ApplicationController
-            class Student < ::Student
-                def as_json (options={})
-                    
-                end
-            end
             
             respond_to :json
             
